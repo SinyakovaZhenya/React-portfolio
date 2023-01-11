@@ -1,0 +1,111 @@
+/* Parallax */
+
+#main {
+	overflow: hidden;
+	min-height: 100vh;
+}
+
+.circle {
+	background: rgba(105, 51, 220, 0.25);
+	border-radius: 50%;
+}
+
+#circle1 {
+	position: absolute;
+	width: 950px;
+	height: 950px;
+	left: -180px;
+	top: -550px;
+}
+
+#scene1 {
+	position: absolute;
+	right: 140px;
+	top: 150px;
+}
+
+#scene1 .circle {
+	width: 55px;
+	height: 55px;
+}
+
+#scene2 {
+	position: absolute;
+	left: 1000px;
+	top: 480px;
+}
+
+#scene2 .circle {
+	width: 85px;
+	height: 85px;
+}
+
+#scene3 {
+	position: absolute;
+	left: -100px;
+	top: 500px;
+}
+
+#scene3 .circle {
+	width: 350px;
+	height: 350px;
+	background: rgba(105, 51, 220, 0.25);
+}
+
+#scene4 {
+	position: absolute;
+	right: 40px;
+	top: 390px;
+}
+
+#scene4 .circle {
+	width: 670px;
+	height: 670px;
+	background: rgba(105, 51, 220, 0.25);
+}
+
+#scene5 {
+	position: absolute;
+	right: 100px;
+	top: 800px;
+}
+
+#scene5 .circle {
+	width: 120px;
+	height: 120px;
+}
+
+#scene6 {
+	position: absolute;
+	right: 260px;
+	top: 1000px;
+}
+
+#scene6 .circle {
+	width: 55px;
+	height: 55px;
+}
+
+#scene7 {
+	position: absolute;
+	right: 150px;
+	top: 1200px;
+}
+
+#scene7 .circle {
+	width: 280px;
+	height: 280px;
+	background: rgba(105, 51, 220, 0.25);
+}
+
+#scene8 {
+	position: absolute;
+	right: -100px;
+	top: 1400px;
+}
+
+#scene8 .circle {
+	width: 170px;
+	height: 170px;
+}
+
